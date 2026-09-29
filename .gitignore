@@ -1,0 +1,8 @@
+node_modules/
+.env
+dist/
+build/
+backend/annotations.db
+backend/annotations.db-journal
+backend/uploads/
+.DS_Store
