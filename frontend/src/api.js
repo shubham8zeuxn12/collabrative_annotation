@@ -1,6 +1,6 @@
 
 
-const API_URL = `http://${window.location.hostname}:3001/api`;
+const API_URL = 'https://projectongithub.onrender.com/api';
 
 export const uploadDocument = async (file, author) => {
   const formData = new FormData();

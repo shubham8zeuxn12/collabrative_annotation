@@ -6,8 +6,8 @@ import DocumentViewer from './components/DocumentViewer';
 import AnnotationSidebar from './components/AnnotationSidebar';
 import HistoryLog from './components/HistoryLog';
 
-// Connect to socket dynamically based on where it's being accessed from
-const SOCKET_URL = `http://${window.location.hostname}:3001`;
+// Connect to socket on Render
+const SOCKET_URL = 'https://projectongithub.onrender.com';
 
 function App() {
   const [socket, setSocket] = useState(null);
